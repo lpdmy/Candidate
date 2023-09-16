@@ -132,7 +132,7 @@ public class CompanyManager extends Menu<String> {
                 String education = getValue("Input university: ");
                 return new Fresher(graYear, rank, education, candidateId, firstName, lastName, birDate, address, phone, email, candidateType);
             case 3:
-                candidateType = "Experience";
+                candidateType = "Intern";
                 String major = getValue("Input major: ");
                 String semester = getValue("Input semester: ");
                 String university = getValue("Input university: ");
